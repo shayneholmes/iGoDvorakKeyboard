@@ -56,7 +56,10 @@ map key 49 B
 map key 50 M
 map key 51 W
 map key 52 V
-map key 53 Z
+
+# Modified for iGo shenanigans around the Z key
+map key 53 DPAD_UP
+map key 103 Z
 
 ### ROW 1
 
@@ -346,4 +349,10 @@ key Z {
     label:                              'Z'
     base:                               'z'
     shift, capslock:                    'Z'
+}
+
+key DPAD_UP {
+    label:                              ''
+    base:                               DPAD_UP
+    shift:                             'Z'
 }
