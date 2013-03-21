@@ -13,7 +13,7 @@
 # limitations under the License.
 
 #
-# English (US), Dvorak keyboard layout.
+# Modified from English (US), Dvorak keyboard layout.
 # Unlike the default (generic) keyboard layout, English (US) does not contain any
 # special ALT characters.
 #
@@ -58,6 +58,15 @@ map key 52 V
 # Modified for iGo shenanigans around the Z key
 map key 53 DPAD_UP
 map key 103 Z
+
+# Additional modifications to make it easier to work in Android
+map key 1 TAB # was ESCAPE
+map key 15 ESCAPE # was TAB
+map key 58 DEL # was CAPS_LOCK
+
+# still need...
+# HOME
+# MENU (works with Ctrl+Esc)
 
 ### Basic QWERTY keys ###
 
