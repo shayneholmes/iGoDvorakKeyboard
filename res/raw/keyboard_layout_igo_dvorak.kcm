@@ -18,7 +18,7 @@
 # special ALT characters.
 #
 
-type FULL 
+type OVERLAY
 
 map key 12 LEFT_BRACKET
 map key 13 RIGHT_BRACKET
